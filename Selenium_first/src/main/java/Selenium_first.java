@@ -5,4 +5,5 @@
 
 public class Selenium_first {
     int s;
+    String d;
 }
