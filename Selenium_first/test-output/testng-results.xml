@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="6488" started-at="2018-02-12T08:40:44Z" finished-at="2018-02-12T08:40:50Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6488" started-at="2018-02-12T08:40:44Z" finished-at="2018-02-12T08:40:50Z">
+      <class name="com.auto.driverscript.DriverScript">
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.auto.driverscript.DriverScript@402f32ff]" name="driversetup" is-config="true" duration-ms="3489" started-at="2018-02-12T02:40:44Z" finished-at="2018-02-12T02:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="smoketest()[pri:0, instance:com.auto.driverscript.DriverScript@402f32ff]" name="smoketest" duration-ms="2996" started-at="2018-02-12T02:40:47Z" finished-at="2018-02-12T02:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoketest -->
+      </class> <!-- com.auto.driverscript.DriverScript -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

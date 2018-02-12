@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Framework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Framework/out/Framework.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../Framework/out/Framework.jar!/" />
+    </SOURCES>
+  </library>
+</component>
