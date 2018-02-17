@@ -4,6 +4,8 @@
 import com.auto.driverscript.*;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
 import java.util.ArrayList;
 
 
@@ -17,14 +19,18 @@ public class FirstPage {
     private static Logger log = Logger.getLogger(FirstPage.class.getName());
     public FirstPage() {
     }
-    public  static void test1() {
+    public  static void test1(String a, String b, String c) {
             log.info("mymsg");
             System.out.println("yes");
         WebDriver dr = DriverInstance.dr;
         dr.get(Constants.appurl);
         String actualtitle = dr.getTitle();
+
+        WebDriver dr1 = new InternetExplorerDriver();
+        dr1.get(Constants.appurl);
+        System.out.println(dr.getTitle() +" " + dr1.getTitle());
        // Assert.assertEquals(actualtitle,Constants.expectedtitle);
-/*
+
 
         uc.test_sleep(5000);
         String oldtab = dr.getWindowHandle();
@@ -34,6 +40,7 @@ public class FirstPage {
         //dr.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         System.out.println("should have clicked");
         ArrayList<String> tabs = new ArrayList<String>(dr.getWindowHandles());
+        ArrayList<String>tt = tabs;
         System.out.println(tabs.size());
 
         uc.test_sleep(5000);
@@ -43,8 +50,9 @@ public class FirstPage {
         WebElement e1 = dr.findElement(By.linkText("Business"));
 
 
-        //ArrayList<String> tabs1 = new ArrayList<String> (dr.getWindowHandles());
-
+       ArrayList<String> tabs1 = new ArrayList<String> (dr.getWindowHandles());
+       System.out.println("ss");
+/*
 //        //dr.switchTo().window(tabs1.get(2));
         uc.test_sleep(10000);
         dr.findElement(By.className("wc2_close2")).click();

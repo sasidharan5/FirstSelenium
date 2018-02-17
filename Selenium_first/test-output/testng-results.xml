@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="12283" started-at="2018-02-12T22:17:45Z" finished-at="2018-02-12T22:17:58Z">
+  <suite name="Command line suite" duration-ms="4139" started-at="2018-02-16T23:04:06Z" finished-at="2018-02-16T23:04:10Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="12283" started-at="2018-02-12T22:17:45Z" finished-at="2018-02-12T22:17:58Z">
+    <test name="Command line test" duration-ms="4139" started-at="2018-02-16T23:04:06Z" finished-at="2018-02-16T23:04:10Z">
       <class name="com.auto.driverscript.DriverScript">
-        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.auto.driverscript.DriverScript@402f32ff]" name="driversetup" is-config="true" duration-ms="6077" started-at="2018-02-12T16:17:45Z" finished-at="2018-02-12T16:17:52Z">
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.auto.driverscript.DriverScript@3c72f59f]" name="driversetup" is-config="true" duration-ms="4013" started-at="2018-02-16T17:04:06Z" finished-at="2018-02-16T17:04:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driversetup -->
-        <test-method status="PASS" signature="smoketest()[pri:0, instance:com.auto.driverscript.DriverScript@402f32ff]" name="smoketest" duration-ms="6204" started-at="2018-02-12T16:17:52Z" finished-at="2018-02-12T16:17:58Z">
+        <test-method status="PASS" signature="smoketest()[pri:0, instance:com.auto.driverscript.DriverScript@3c72f59f]" name="smoketest" duration-ms="122" started-at="2018-02-16T17:04:10Z" finished-at="2018-02-16T17:04:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smoketest -->
